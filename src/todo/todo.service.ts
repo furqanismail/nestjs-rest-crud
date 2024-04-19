@@ -22,6 +22,8 @@ export class TodoService {
         uuid,
       },
     });
+
+    return getDetailPost;
   }
 
   async create(createTodoDto: CreateTodoDto) {
